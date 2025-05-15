@@ -1,6 +1,15 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world! from Caiden");
-        System.out.println("Hi, I'm a change!");
+        System.out.println("Welcome to CS 112!");
+    }
+
+    public static void a() {
+        System.out.println("method a");
+    }
+
+    public static int b(int n) {
+        System.out.println("method b, returns " + n);
+        return n;
     }
 }
+
